@@ -50,6 +50,7 @@ Focus areas:
 | [04_atomic_counter_contention](experiments/04_atomic_counter_contention) | Comparing mutex, shared atomic, and per-thread local counter strategies |
 | [05_cpu_affinity_scaling](experiments/05_cpu_affinity_scaling) | Comparing default scheduler placement with manual CPU affinity strategies |
 | [06_memory_bandwidth_cache](experiments/06_memory_bandwidth_cache) | Measuring memory bandwidth and cache locality effects across working-set sizes |
+| [07_allocator_behavior](experiments/07_allocator_behavior) | Comparing heap allocation, preallocation, and object pool reuse strategies |
 
 ## Related Project
 
