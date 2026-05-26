@@ -40,6 +40,12 @@ Focus areas:
 - htop
 - gdb
 
+## Experiments
+
+| Experiment | Description |
+|---|---|
+| [01_multithread_scaling](experiments/01_multithread_scaling) | Measuring CPU-bound throughput scaling across physical cores and SMT threads |
+
 ## Related Project
 
 - https://github.com/madri19/arm-embedded-linux-performance-lab
