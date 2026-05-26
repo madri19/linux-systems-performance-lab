@@ -46,6 +46,7 @@ Focus areas:
 |---|---|
 | [01_multithread_scaling](experiments/01_multithread_scaling) | Measuring CPU-bound throughput scaling across physical cores and SMT threads |
 | [02_false_sharing](experiments/02_false_sharing) | Measuring cache-line false sharing and the impact of padding/alignment |
+| [03_mutex_contention](experiments/03_mutex_contention) | Measuring throughput collapse from mutex contention across multiple threads |
 
 ## Related Project
 
