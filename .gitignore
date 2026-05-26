@@ -1,0 +1,21 @@
+# Build outputs
+build/
+bin/
+out/
+
+# Object files
+*.o
+*.obj
+
+# Executables / binaries
+*.out
+*.exe
+
+# Local experiment binaries
+experiments/*/multithread_scaling
+experiments/*/false_sharing
+experiments/*/mutex_contention
+
+# Editor / OS
+.vscode/
+.DS_Store
