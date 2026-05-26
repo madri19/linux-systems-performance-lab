@@ -61,6 +61,12 @@ Focus areas:
 | [10_spsc_ring_buffer](experiments/10_spsc_ring_buffer) | Comparing SPSC ring buffer throughput against a mutex-protected queue |
 | [11_perf_flamegraph](experiments/11_perf_flamegraph) | Profiling mutex contention with perf and flamegraph analysis |
 
+## Phase 2A Summary
+
+See:
+
+- [docs/phase2a_summary.md](docs/phase2a_summary.md)
+
 ## Related Project
 
 - https://github.com/madri19/arm-embedded-linux-performance-lab
