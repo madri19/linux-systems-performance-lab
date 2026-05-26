@@ -53,9 +53,11 @@ Focus areas:
 | [07_allocator_behavior](experiments/07_allocator_behavior) | Comparing heap allocation, preallocation, and object pool reuse strategies |
 | [08_thread_pool_vs_spawn](experiments/08_thread_pool_vs_spawn) | Comparing thread spawning with thread pool reuse across batch workloads |
 | [09_producer_consumer_queue](experiments/09_producer_consumer_queue) | Measuring producer/consumer queue scaling and shared queue contention |
+| [10_spsc_ring_buffer](experiments/10_spsc_ring_buffer) | Comparing SPSC ring buffer throughput against a mutex-protected queue |
 | [07_allocator_behavior](experiments/07_allocator_behavior) | Comparing heap allocation, preallocation, and object pool reuse strategies |
 | [08_thread_pool_vs_spawn](experiments/08_thread_pool_vs_spawn) | Comparing thread spawning with thread pool reuse across batch workloads |
 | [09_producer_consumer_queue](experiments/09_producer_consumer_queue) | Measuring producer/consumer queue scaling and shared queue contention |
+| [10_spsc_ring_buffer](experiments/10_spsc_ring_buffer) | Comparing SPSC ring buffer throughput against a mutex-protected queue |
 
 ## Related Project
 
