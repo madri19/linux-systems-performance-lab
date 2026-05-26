@@ -20,3 +20,7 @@ experiments/*/mutex_contention
 .vscode/
 .DS_Store
 tools/
+
+# perf / flamegraph generated intermediates
+experiments/*/results/perf.data
+experiments/*/results/perf_script.txt
