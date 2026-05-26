@@ -19,3 +19,4 @@ experiments/*/mutex_contention
 # Editor / OS
 .vscode/
 .DS_Store
+tools/
