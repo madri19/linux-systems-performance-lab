@@ -1,0 +1,39 @@
+Multithread Scaling Baseline
+Work per thread: 200000000
+
+Threads: 1
+Elapsed: 286 ms
+Throughput: 6.99301e+08 iterations/sec
+
+Speedup vs 1 thread: 1x
+-----------------------------
+Threads: 2
+Elapsed: 286 ms
+Throughput: 1.3986e+09 iterations/sec
+
+Speedup vs 1 thread: 2x
+-----------------------------
+Threads: 4
+Elapsed: 286 ms
+Throughput: 2.7972e+09 iterations/sec
+
+Speedup vs 1 thread: 4x
+-----------------------------
+Threads: 6
+Elapsed: 473 ms
+Throughput: 2.537e+09 iterations/sec
+
+Speedup vs 1 thread: 3.62791x
+-----------------------------
+Threads: 8
+Elapsed: 584 ms
+Throughput: 2.73973e+09 iterations/sec
+
+Speedup vs 1 thread: 3.91781x
+-----------------------------
+Threads: 12
+Elapsed: 871 ms
+Throughput: 2.75545e+09 iterations/sec
+
+Speedup vs 1 thread: 3.9403x
+-----------------------------

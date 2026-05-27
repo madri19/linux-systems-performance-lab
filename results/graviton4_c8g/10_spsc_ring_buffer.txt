@@ -1,0 +1,15 @@
+SPSC Ring Buffer vs Mutex Queue Benchmark
+Items: 5000000
+Ring capacity: 65536
+
+Mutex queue consumed: 5000000
+SPSC ring consumed: 5000000
+Mutex queue
+Elapsed: 792792 us
+Throughput: 6.30682e+06 items/sec
+
+SPSC ring buffer
+Elapsed: 489288 us
+Throughput: 1.02189e+07 items/sec
+
+SPSC ring / mutex queue: 1.6203x

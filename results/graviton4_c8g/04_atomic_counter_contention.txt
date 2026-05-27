@@ -1,0 +1,45 @@
+Atomic Counter Contention Benchmark
+Increments per thread: 10000000
+
+Threads: 1
+Mutex counter:  5.5053e+07 inc/sec (181643 us)
+Atomic counter: 1.96537e+08 inc/sec (50881 us)
+Local counters: 9.27558e+08 inc/sec (10781 us)
+Atomic / Mutex: 3.56996x
+Local / Atomic: 4.71951x
+-----------------------------
+Threads: 2
+Mutex counter:  8.78657e+06 inc/sec (2276201 us)
+Atomic counter: 1.24199e+08 inc/sec (161032 us)
+Local counters: 1.85322e+09 inc/sec (10792 us)
+Atomic / Mutex: 14.1351x
+Local / Atomic: 14.9214x
+-----------------------------
+Threads: 4
+Mutex counter:  8.36767e+06 inc/sec (4780304 us)
+Atomic counter: 1.20905e+08 inc/sec (330839 us)
+Local counters: 3.69583e+09 inc/sec (10823 us)
+Atomic / Mutex: 14.449x
+Local / Atomic: 30.5681x
+-----------------------------
+Threads: 6
+Mutex counter:  8.88468e+06 inc/sec (6753198 us)
+Atomic counter: 1.2015e+08 inc/sec (499375 us)
+Local counters: 3.06419e+09 inc/sec (19581 us)
+Atomic / Mutex: 13.5233x
+Local / Atomic: 25.503x
+-----------------------------
+Threads: 8
+Mutex counter:  9.01701e+06 inc/sec (8872119 us)
+Atomic counter: 1.20188e+08 inc/sec (665626 us)
+Local counters: 3.57494e+09 inc/sec (22378 us)
+Atomic / Mutex: 13.329x
+Local / Atomic: 29.7447x
+-----------------------------
+Threads: 12
+Mutex counter:  8.63625e+06 inc/sec (13894917 us)
+Atomic counter: 1.19535e+08 inc/sec (1003893 us)
+Local counters: 3.4905e+09 inc/sec (34379 us)
+Atomic / Mutex: 13.841x
+Local / Atomic: 29.2008x
+-----------------------------

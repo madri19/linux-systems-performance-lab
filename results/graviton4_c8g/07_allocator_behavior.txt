@@ -1,0 +1,22 @@
+Allocator Behavior Benchmark
+Objects per iteration: 1000000
+Iterations: 10
+
+new/delete
+Elapsed: 323715 us
+Throughput: 3.08914e+07 objects/sec
+
+malloc/free
+Elapsed: 315700 us
+Throughput: 3.16756e+07 objects/sec
+
+vector preallocated
+Elapsed: 37164 us
+Throughput: 2.69078e+08 objects/sec
+
+object pool reuse
+Elapsed: 42091 us
+Throughput: 2.3758e+08 objects/sec
+
+object pool / new-delete: 7.69084x
+vector / new-delete: 8.71045x

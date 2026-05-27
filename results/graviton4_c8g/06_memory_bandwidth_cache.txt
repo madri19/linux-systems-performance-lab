@@ -1,0 +1,43 @@
+Memory Bandwidth and Cache Locality Benchmark
+Iterations per working set: 20
+
+Working set: 32 KiB
+Elements: 4096
+Sequential read:  3491.62 MiB/s (179 us)
+Sequential write: 21551.7 MiB/s (29 us)
+Random read:      3551.14 MiB/s (176 us)
+Random write:     19531.2 MiB/s (32 us)
+Random read / Sequential read: 1.01705x
+-----------------------------
+Working set: 256 KiB
+Elements: 32768
+Sequential read:  3496.5 MiB/s (1430 us)
+Sequential write: 21367.5 MiB/s (234 us)
+Random read:      3481.89 MiB/s (1436 us)
+Random write:     9242.14 MiB/s (541 us)
+Random read / Sequential read: 0.995822x
+-----------------------------
+Working set: 4096 KiB
+Elements: 524288
+Sequential read:  3482.05 MiB/s (22975 us)
+Sequential write: 21130.5 MiB/s (3786 us)
+Random read:      2410.51 MiB/s (33188 us)
+Random write:     5655.31 MiB/s (14146 us)
+Random read / Sequential read: 0.692268x
+-----------------------------
+Working set: 32768 KiB
+Elements: 4194304
+Sequential read:  3487.07 MiB/s (183535 us)
+Sequential write: 21131.2 MiB/s (30287 us)
+Random read:      804.329 MiB/s (795694 us)
+Random write:     2302.98 MiB/s (277901 us)
+Random read / Sequential read: 0.23066x
+-----------------------------
+Working set: 131072 KiB
+Elements: 16777216
+Sequential read:  3485.63 MiB/s (734444 us)
+Sequential write: 21111.3 MiB/s (121262 us)
+Random read:      779.501 MiB/s (3284152 us)
+Random write:     1964.91 MiB/s (1302860 us)
+Random read / Sequential read: 0.223633x
+-----------------------------

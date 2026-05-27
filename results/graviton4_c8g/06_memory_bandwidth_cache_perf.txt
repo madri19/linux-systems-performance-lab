@@ -1,0 +1,67 @@
+Memory Bandwidth and Cache Locality Benchmark
+Iterations per working set: 20
+
+Working set: 32 KiB
+Elements: 4096
+Sequential read:  3531.07 MiB/s (177 us)
+Sequential write: 17361.1 MiB/s (36 us)
+Random read:      3255.21 MiB/s (192 us)
+Random write:     17361.1 MiB/s (36 us)
+Random read / Sequential read: 0.921875x
+-----------------------------
+Working set: 256 KiB
+Elements: 32768
+Sequential read:  3355.7 MiB/s (1490 us)
+Sequential write: 20080.3 MiB/s (249 us)
+Random read:      3371.54 MiB/s (1483 us)
+Random write:     9242.14 MiB/s (541 us)
+Random read / Sequential read: 1.00472x
+-----------------------------
+Working set: 4096 KiB
+Elements: 524288
+Sequential read:  3389.69 MiB/s (23601 us)
+Sequential write: 20449.9 MiB/s (3912 us)
+Random read:      2675.05 MiB/s (29906 us)
+Random write:     5398.84 MiB/s (14818 us)
+Random read / Sequential read: 0.789173x
+-----------------------------
+Working set: 32768 KiB
+Elements: 4194304
+Sequential read:  3397.01 MiB/s (188401 us)
+Sequential write: 20659.2 MiB/s (30979 us)
+Random read:      816.074 MiB/s (784243 us)
+Random write:     2236.05 MiB/s (286219 us)
+Random read / Sequential read: 0.240233x
+-----------------------------
+Working set: 131072 KiB
+Elements: 16777216
+Sequential read:  3398.17 MiB/s (753347 us)
+Sequential write: 20687.4 MiB/s (123747 us)
+Random read:      773.51 MiB/s (3309589 us)
+Random write:     1912.02 MiB/s (1338896 us)
+Random read / Sequential read: 0.227626x
+-----------------------------
+
+ Performance counter stats for './build/memory_bandwidth_cache':
+
+       20478896727      cpu_cycles                                                              (27.28%)
+       12372768857      inst_retired                                                            (27.27%)
+        2043318519      br_retired                                                              (27.28%)
+            189648      br_mis_pred_retired                                                     (18.19%)
+        4975696348      l1d_cache                                                               (18.19%)
+         894747768      l1d_cache_refill                                                        (18.19%)
+        2979695562      l2d_cache                                                               (18.19%)
+         537501837      l2d_cache_refill                                                        (18.17%)
+                 0      l3d_cache                                                               (18.15%)
+                 0      l3d_cache_refill                                                        (18.17%)
+         764950668      dtlb_walk                                                               (18.18%)
+             84236      page-faults                                                           
+                35      context-switches                                                      
+                 0      cpu-migrations                                                        
+
+       7.651692636 seconds time elapsed
+
+       7.566031000 seconds user
+       0.085000000 seconds sys
+
+

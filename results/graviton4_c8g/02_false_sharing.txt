@@ -1,0 +1,7 @@
+False Sharing Benchmark
+Iterations per thread: 200000000
+
+False sharing layout: 3341 ms
+Padded layout:        1008 ms
+
+Speedup from padding: 3.31448x

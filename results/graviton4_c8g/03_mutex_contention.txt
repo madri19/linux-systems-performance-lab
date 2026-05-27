@@ -1,0 +1,45 @@
+Mutex Contention Benchmark
+Increments per thread: 5000000
+
+Threads: 1
+Elapsed: 92 ms
+Counter: 5000000
+Throughput: 5.43478e+07 increments/sec
+
+Throughput vs 1 thread: 1x
+-----------------------------
+Threads: 2
+Elapsed: 1243 ms
+Counter: 10000000
+Throughput: 8.04505e+06 increments/sec
+
+Throughput vs 1 thread: 0.148029x
+-----------------------------
+Threads: 4
+Elapsed: 2231 ms
+Counter: 20000000
+Throughput: 8.96459e+06 increments/sec
+
+Throughput vs 1 thread: 0.164948x
+-----------------------------
+Threads: 6
+Elapsed: 3164 ms
+Counter: 30000000
+Throughput: 9.48167e+06 increments/sec
+
+Throughput vs 1 thread: 0.174463x
+-----------------------------
+Threads: 8
+Elapsed: 4142 ms
+Counter: 40000000
+Throughput: 9.65717e+06 increments/sec
+
+Throughput vs 1 thread: 0.177692x
+-----------------------------
+Threads: 12
+Elapsed: 6365 ms
+Counter: 60000000
+Throughput: 9.42655e+06 increments/sec
+
+Throughput vs 1 thread: 0.173449x
+-----------------------------
